@@ -1,1 +1,1 @@
-# WikipediaMining
+# VGN
