@@ -3,7 +3,7 @@ import datetime
 year = datetime.date.today().year
 
 # generating intro
-print("'''<u>V</u>or<u>g</u>angs<u>n</u>ummer''' für das Jahr {}.".format(year))
+print("'''<u>V</u>or<u>g</u>angs<u>n</u>ummern''' für das Jahr {}.".format(year))
 
 # getting VGNs
 print("== Vorgangsnummern ==")
@@ -20,4 +20,4 @@ for i in range(1, 101):
 print("|}\n")
 
 # Generating Category
-print("[[Kategorie:Vorgang|Shortcut/{}]]".format(year))
+print("[[Kategorie:Vorgang|Shortcuts/{}]]".format(year))
